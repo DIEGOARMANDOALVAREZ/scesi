@@ -1,9 +1,17 @@
 # **CURSO GIT**
 # CLASE 1
-## 1.- COMANDO: git init
-### ¿Qué hace git init?
-Cuando ejecutas git init en una carpeta, Git crea un nuevo repositorio en esa carpeta. 
-Un repositorio es como una caja que guarda el historial de todos los cambios que haces en tus archivos.
+## 1.- INTRODUCCION A GIT
+### ¿Que es un control de versiones?
+Es un sistema que registra cada cambio que se realiza en el codigo fuente de un proyecto.
+### ¿Porque es importante?
+* Por el rendimiento
+* Seguridad
+* Flexibilidad
+
+
+
+
+
 
 ### Crea una carpeta oculta:
  Dentro de la carpeta donde ejecutaste git init, Git crea una carpeta oculta llamada .git. Esta carpeta contiene toda la información necesaria para seguir los cambios en tus archivos.
