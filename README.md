@@ -17,7 +17,8 @@ Donde se almacenan todos los commits y el historial del proyecto.
 
 ### ¿COMO DESHACER UN ARCHIVO MODIFICADO?
 Para deshacer los cambios en un archivo modificado y devolverlo a su estado original, usa: 
-              git checkout nombre-del-archivo
+<p style="text-align: center;"><code>git checkout -- nombre-del-archivo</code></p>
+
 
 
 
