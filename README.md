@@ -15,9 +15,13 @@ Donde haces cambios a tus archivos.
 ### 3. Repository (Repositorio):
 Donde se almacenan todos los commits y el historial del proyecto.
 
-### ¿COMO DESHACER UN ARCHIVO MODIFICADO?
+## 3.-¿Como deshacer un archivo modificado?
 Para deshacer los cambios en un archivo modificado y devolverlo a su estado original, usa: 
 <p style="text-align: center;"><code>git checkout -- nombre-del-archivo</code></p>
+
+## 4.-¿Cómo añadimos archivos al área de staging?
+ Para lograr el movimiento, tendremos que ejecutar el siguiente comando
+ <p style="text-align: center;"><code>git add &lt;archivos&gt;</code></p>
 
 
 
