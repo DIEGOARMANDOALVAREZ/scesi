@@ -11,8 +11,7 @@ Crea una carpeta oculta: Dentro de la carpeta donde ejecutaste git init, Git cre
 3. Repository (Repositorio): Donde se almacenan todos los commits y el historial del proyecto.
 Estos estados permiten gestionar y guardar tus cambios de manera organizada en Git.
 ### ¿COMO DESHACER UN ARCHIVO MODIFICADO?
-Para deshacer los cambios en un archivo modificado y devolverlo a su estado original, usa:
---------git checkout -- nombre-del-archivo---------------------
+Para deshacer los cambios en un archivo modificado y devolverlo a su estado original, usa: git checkout nombre-del-archivo
 
 
 
