@@ -29,9 +29,17 @@ Los repositorios pueden ser:
 * Commited = El archivo esta grabado en el repositorio local
  ## Comandos de Git
  * git status 
- > PARA VER EL ESTADO ACTUAL QUE ESTA EN GIT 
- 
- * git add "texo.html"
- > PARA CREAR UN ARCHIVO  
+ > Para ver el estado en que esta git 
+ * git add <texo.html>
+ > Para crear un archivo 
+ * git reset HEAD <nombre_del_archivo>
+ > Para sacar un archivo específico del área de staging
+ * git reset HEAD <nombre_del_archivo_1> <nombre_del_archivo_2> ... <nombre_del_archivo_n>
+ > Para sacar varios archivos del área de staging 
+ * git log
+ > Permite ver el historial de commit que realizamos
+## 3.- COMO HACER UN COMMIT
+* git commit -m 
+> el mensaje especificado se usara como titulo del commit para describir los cambios realizados.
 
 
