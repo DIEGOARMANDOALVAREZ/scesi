@@ -18,6 +18,9 @@ Es una carpeta en la que se almacenan las diferentes versiones de los ficheros d
 Los repositorios pueden ser:
 * Locales = Lo tenemos en nuestro ordenador
 * Remotos = Ubicados en un servidor externo
+## 2.- COMO INICIAR UN PROYECTO EN GIT
+### Un comando util para ver el uso de git 
+<a href="https://git-scm.com/docs/git-init">git init --help</a>
 
 
 
