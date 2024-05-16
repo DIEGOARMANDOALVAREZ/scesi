@@ -21,7 +21,9 @@ Los repositorios pueden ser:
 ## 2.- COMO INICIAR UN PROYECTO EN GIT
 ### Un comando util para ver el uso de git 
 > [git init --help](https://git-scm.com/docs/git-init)
-
+### Como iniciar un proyecto en git
+> git init
+ 
 
 
 
