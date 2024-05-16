@@ -43,4 +43,6 @@ Los repositorios pueden ser:
 > el mensaje especificado se usara como titulo del commit para describir los cambios realizados.
 ## Que es un HEAD?
 Es un puntero que referencia el punto actual del historial de cambios del repositorio en el que estas trabajando.
-
+# CLASE 2 
+## Que es una RAMA?
+En Git, una rama (o "branch") es una versión paralela del repositorio que permite trabajar de manera independiente en diferentes partes de un proyecto sin afectar la línea principal de desarrollo.
