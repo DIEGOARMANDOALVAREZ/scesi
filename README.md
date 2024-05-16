@@ -41,5 +41,6 @@ Los repositorios pueden ser:
 ## 3.- COMO HACER UN COMMIT
 * git commit -m 
 > el mensaje especificado se usara como titulo del commit para describir los cambios realizados.
-
+## Que es un HEAD?
+Es un puntero que referencia el punto actual del historial de cambios del repositorio en el que estas trabajando.
 
