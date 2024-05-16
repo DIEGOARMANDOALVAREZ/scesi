@@ -21,9 +21,15 @@ Los repositorios pueden ser:
 ## 2.- COMO INICIAR UN PROYECTO EN GIT
 ### Un comando util para ver el uso de git 
 > [git init --help](https://git-scm.com/docs/git-init)
-### Como iniciar un proyecto en git
+### Como inicicializar un proyecto en git
 > git init
- 
+## los tres estados de git
+* Modifed = El archivo ha sido creado, eliminado o contiene cambios"COLOR VERDE"
+* staged = El archivo esta en preparacio para ser confirmado""
+* Commited = El archivo esta grabado en el repositorio local
+ ## Comandos de Git
+ * git status 
+ > PARA VER LOS ESTADO ACTUAL QUE ESTA EN GIT 
 
 
 
