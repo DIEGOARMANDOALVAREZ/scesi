@@ -29,7 +29,9 @@ Los repositorios pueden ser:
 * Commited = El archivo esta grabado en el repositorio local
  ## Comandos de Git
  * git status 
- > PARA VER LOS ESTADO ACTUAL QUE ESTA EN GIT 
-
+ > PARA VER EL ESTADO ACTUAL QUE ESTA EN GIT 
+ 
+ * git add "texo.html"
+ > PARA CREAR UN ARCHIVO  
 
 
