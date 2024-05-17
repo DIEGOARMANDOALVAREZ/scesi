@@ -178,6 +178,7 @@ Abre una petición de cambios para que sean revisados por CI pero se fusiona inm
 Abre una PR para discutir los cambios antes de fusionarlos.
 # CLASE 6
 ## BUENAS PRACTICAS EN GIT
+![Buen commit](BUENCOMMIT.png)
 ### ¿Cada cuánto debería hacer un commit?
 > Es mejor hacer commits pequeños, agrupando pequeñas mejoras o acciones, que un commit con todo lo que se quiere hacer es decir hacer commit muy amenudo.
 ### Escribir buenos commits
