@@ -311,5 +311,7 @@ ejem
 > Marca un commit conocido como libre de errores (bueno).
 * git bisect resset
 > Termina el proceso de bisecting y vuelve a la rama 
-![Gracias](GIFGRACIAS.gif)
+
+
+* ![Gracias](GIFGRACIAS.gif)
 
