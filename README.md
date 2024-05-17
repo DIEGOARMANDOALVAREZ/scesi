@@ -156,6 +156,18 @@ Es la rama principal de desarrollo donde se integran todas las características 
 #### hotfix:
  Ramas creadas para corregir errores críticos en producción. Se ramifican desde master, se solucionan los problemas y luego se fusionan tanto en master como en develop.
 
-
-
-
+## Trunk Based Development
+> Es una estrategia que se basa en que el mayor tiempo de desarrollo se concentra en una sola rama llamada trunk (tronco) que normalmente corresponderá con main.
+#### Beneficios de Trunk Based Development
+* Integración continua y menos fricción
+* Menos trabajo manual
+* Despliegue a producción continuo
+## Ship / Show / Ask
+> Es una estrategia de ramas que combina la idea de crear Pull Request con la habilidad de seguir publicando cambios rápidamente.
+![Descripción del barco](SHIP.png)
+* Ship:
+Se fusiona en la rama principal sin revisión.
+* Show:
+Abre una petición de cambios para que sean revisados por CI pero se fusiona inmediatamente.
+* Ask:
+Abre una PR para discutir los cambios antes de fusionarlos.
