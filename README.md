@@ -248,9 +248,15 @@ Esto eliminara los cambios de los que habiamos hecho commit anteriormente<ojo> A
 * Tambien conocido como punto de enganche, es la posibilidad de ejecutar una accion o script cada vez que ocurre un evento determinado de Git
 ### Hooks del lado del cliente (Repositorio local)
 > Sólo afectan al repositorio local que los contiene. Esto significa que puedes tener el mismo repositorio clonado de forma local varias veces y, sin embargo, ejecutar diferentes hooks.
-* pre-commit: Ejecuta acciones antes de hacer commit, como linting de archivos modificados.
-* prepare-commit-msg: Modifica el mensaje del commit antes de que el usuario lo vea.
-* commit-msg: Verifica el mensaje del commit, asegurándose de que siga una convención específica.
-* post-commit: Se usa para notificaciones, como enviar un mensaje a Slack después de un commit.
-* pre-push: Ejecuta tests antes de hacer push para evitar subir cambios que no pasen las pruebas.
-* post-checkout y post-merge: Limpian el directorio de trabajo después de un checkout o merge, eliminando ramas no utilizadas.
+* pre-commit: 
+>Ejecuta acciones antes de hacer commit, como linting de archivos modificados.
+* prepare-commit-msg:
+> Modifica el mensaje del commit antes de que el usuario lo vea.
+* commit-msg: 
+>Verifica el mensaje del commit, asegurándose de que siga una convención específica.
+* post-commit: 
+>Se usa para notificaciones, como enviar un mensaje a Slack después de un commit.
+* pre-push: 
+>Ejecuta tests antes de hacer push para evitar subir cambios que no pasen las pruebas.
+* post-checkout y post-merge: 
+>Limpian el directorio de trabajo después de un checkout o merge, eliminando ramas no utilizadas.
