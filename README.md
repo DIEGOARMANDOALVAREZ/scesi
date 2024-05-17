@@ -171,3 +171,21 @@ Se fusiona en la rama principal sin revisión.
 Abre una petición de cambios para que sean revisados por CI pero se fusiona inmediatamente.
 * Ask:
 Abre una PR para discutir los cambios antes de fusionarlos.
+# CLASE 6
+## BUENAS PRACTICAS EN GIT
+### ¿Cada cuánto debería hacer un commit?
+> Es mejor hacer commits pequeños, agrupando pequeñas mejoras o acciones, que un commit con todo lo que se quiere hacer es decir hacer commit muy amenudo.
+### Escribir buenos commits
+#### 1. Usar el verbo imperativo (Add, Change, Fix, Remove)
+* Add: Significa que se añade un nuevo archivo.
+* Change: Significa que se modifica un archivo existente.
+* Fix: Significa que se arregla un bug.
+* Remove: Significa que se elimina un archivo existente.
+#### 2. No uses punto final ni puntos suspensivos en tus mensajes
+* Usar puntuación, más allá de las comas, es innecesario a la hora de crear un buen mensaje de commit.
+#### 3. Usa como máximo 50 caracteres para tu mensaje de commit
+* Sé corto y conciso. Si tienes mucho que explicar es probable que tu commit contenga demasiados cambios.
+#### 4. Añade todo el contexto que se necesario en el cuerpo del commit
+* A veces necesitas proveer de más contexto a tu commit.
+#### 5. Usa un prefijo para tus commits para hacerlos más semánticos
+![Prefijos](PREFIJOS.png)
