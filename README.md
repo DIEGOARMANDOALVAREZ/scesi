@@ -44,7 +44,18 @@ Los repositorios pueden ser:
 ## Que es un HEAD?
 Es un puntero que referencia el punto actual del historial de cambios del repositorio en el que estas trabajando.
 # CLASE 2 
-## Que es una RAMA?
+### Que es una RAMA?
 En Git, una rama (o "branch") es una versión paralela del repositorio que permite trabajar de manera independiente en diferentes partes de un proyecto sin afectar la línea principal de desarrollo.
-### Para que sirven las ramas?
+## Para que sirven las ramas?
 Permite realizar un desarrollo paralelo.
+## Como crear una rama
+* git branch
+> listar a todas las ramas
+* git branch <nombredelarama>
+> para crear una rama
+* git switch <nombredelarama> 
+> para cambiar de rama
+* git checkout 
+> otra foma de cambiar la rama
+* 
+>
