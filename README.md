@@ -163,7 +163,7 @@ Es la rama principal de desarrollo donde se integran todas las características 
 * Menos trabajo manual
 * Despliegue a producción continuo
 ## Ship / Show / Ask
-> Es una estrategia de ramas que combina la idea de crear Pull Request con la habilidad de seguir publicando cambios rápidamente.
+*  Es una estrategia de ramas que combina la idea de crear Pull Request con la habilidad de seguir publicando cambios rápidamente.
 ![Descripción del barco](SHIP.png)
 * Ship:
 Se fusiona en la rama principal sin revisión.
@@ -195,13 +195,13 @@ Abre una PR para discutir los cambios antes de fusionarlos.
 > Que es mejor ejecutarlas antes de hacer un push
 ### Escribir un buen nombre de rama
 #### Usa el nombre de la acción que se realiza en la rama
->bug: Cambios de código para arreglar un bug conocido.
+* bug: Cambios de código para arreglar un bug conocido.
 
->feature: Desarrollo de una nueva característica.
+* feature: Desarrollo de una nueva característica.
 
->experiment: Experimentos que nunca serán fusionados.
+* experiment: Experimentos que nunca serán fusionados.
 
->hotfix: Cambio rápido de un error crítico.
+* hotfix: Cambio rápido de un error crítico.
 #### Usar los IDs de JIRA o el sistema de tickets que 
 Una buena idea es adjuntar al principio del nombre de la rama la ID del ticket o de la issue que esté asociada.
 ### ¿Debería alterar el historial de mi proyecto?
@@ -209,3 +209,35 @@ Una buena idea es adjuntar al principio del nombre de la rama la ID del ticket o
 > Porque?
 * Esa información ya es vulnerable al haber sido expuesta y
 borrarla del historial no garantiza nada.
+# CLASE 7
+## ¿Cómo deshacer mis cambios?
+* Dejo de funcionar el proyecto 
+* Queremos recuperar una parte del codigo que eliminamos
+* Queremos recuperar archivos eliminamos
+### Comandos destructivos y no destructivos
+Los comandos destructivos afectan el historial de commits realizado, sin embargo los comandos no destructivos trabajan en base al historial sin afectarlo
+> si queremos mantener los cambios
+* git reset -- soft HEAD~1
+Con este comando hacemos que la rama actual retroceda a la revision que le indicamos 
+> si no queremos mantener los cambios 
+*  git reset --hard HEAD~1
+Esto eliminara los cambios de los que habiamos hecho commit anteriormente<ojo> Asegurate que eso es lo que quieres hacerlo.
+> arreglar el ultimo commit --amend -m "mensaje que quieres"
+* QUieres anadir mas cambios al ultimo commit 
+## Comandos para deshacer cambios 
+> git reset --hard HEAD~<N>
+* Mueve la rama actual a N commits atrás y elimina los cambios en el área de trabajo y el índice
+> git reset --hard<SHA>
+* Mueve la rama actual al commit identificado por <SHA> y elimina los cambios en el área de trabajo y el índice
+>git revert HEAD~<N>
+* Genera un nuevo commit que revierte los cambios del commit HEAD~<N>.
+>git checkout HEAD~<N>
+* Cambia la rama actual a HEAD~<N> en modo detached HEAD, sin mover la rama actual.
+>git reset --soft HEAD~<N>
+* Mueve la rama actual a N commits atrás pero mantiene los cambios en el índice y el área de trabajo.
+>git reset --soft <SHA>
+* Mueve la rama actual al commit identificado por <SHA> pero mantiene los cambios en el índice y el área de trabajo.
+>git revert<SHA>
+* Genera un nuevo commit que revierte los cambios del commit identificado por <SHA>.
+>git checkout<SHA>
+* Cambia la rama actual al commit identificado por <SHA> en modo detached HEAD, sin mover la rama actual.
