@@ -128,6 +128,8 @@ Es comun que ocurra cuando no tenemos cambios que han ocurrido en el repositorio
 Primero tenemo que subir nuestra rama con git push y a configuraciones hay 2 maneras:
 * la rama que subimos recientemente y te aparece la opcion en GitHub>Code
 * Irnos al apartado Pull Request
+![imagen de pullRequest](PULL.png)
+
 
 
 
