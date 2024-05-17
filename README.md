@@ -83,6 +83,10 @@ Al resolver un conflicto debemos decidir en:
 ## Cuando ocurra un conficto
 * Hacemos Click En La Opcion De Resover En El Editor De Convinacion
 # CLASE 3
+## Git y GItHub son lo mismo ?
+* Git: Herramienta de control de versiones.
+* GitHub: Plataforma en línea para alojar y gestionar repositorios de Git.
+![GitHub NO](GITHUBNO.png)
 
 
 
