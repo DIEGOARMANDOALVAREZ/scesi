@@ -75,3 +75,5 @@ Para mantener limpio el espacio de trabajo
 > Solo muestra el titulo de los commits
 ## Conflictos de git
 # Que pasa su queremos fusionar dos ramas, la de destino ha realizado cambios en las mismas lineas de un fichero que los que queremos fusionar?
+![Conflicto de Fusión en Git](CONFLICTOS.png)
+
