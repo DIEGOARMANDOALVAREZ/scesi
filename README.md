@@ -81,10 +81,8 @@ Al resolver un conflicto debemos decidir en:
 > Nos quedamos con los cambios que vienen de la rama changes
 > Modificamos los cambios para hacer una fusion personalizada
 ## Cuando ocurra un conficto <hacemos click en la opcion de RESOLVER EN EL EDITOR DE CONVINACION>
->HAY UN CONFLICTO
-![Conflicto de Fusión en Git](errores1.png)
->HACEMOS CLICK EN LA OPCION "RESOLVER EN EL EDITOR DE CONVINACION"
-![Conflicto de Fusión en Git](errores2.png)
+# CLASE 3
+
 
 
 
