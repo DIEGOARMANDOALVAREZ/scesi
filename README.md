@@ -134,16 +134,21 @@ Primero tenemo que subir nuestra rama con git push y a configuraciones hay 2 man
 * EXPLICA TU PULL REQUEST 
 # CLASE 5
 ## Git FLow 
-![Diagrama de flujo](FLOW.png)
-Organiza las ramas en dos tipos: permanentes (para versiones estables y desarrollo) y temporales (para características nuevas y correcciones).
+![Diagrama de flujo 2](FLOW2.png)
+
+* Se basa en la creación de Pull Requests que serán discutidas para que se integren en la rama principal que siempre está actualizada con los cambios más recientes y preparada
+para ser desplegada.
+* Organiza las ramas en dos tipos: permanentes (para versiones estables y desarrollo) y temporales (para características nuevas y correcciones).
 ### Ramas Permanentes:
 
+![Diagrama de flujo](FLOW.png)
 #### master:
  Representa la versión estable y lista para producción del software.
 #### develop:
 Es la rama principal de desarrollo donde se integran todas las características nuevas.
 ### Ramas Temporales:
 
+![Diagrama de flujo 3](FLOW3.png)
 #### feature:
  Ramas creadas para implementar nuevas características. Se ramifican desde develop y se fusionan nuevamente en develop una vez completadas.
 #### release:
