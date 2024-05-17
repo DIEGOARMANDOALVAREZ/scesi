@@ -87,6 +87,12 @@ Al resolver un conflicto debemos decidir en:
 * Git: Herramienta de control de versiones.
 * GitHub: Plataforma en línea para alojar y gestionar repositorios de Git.
 ![GitHub NO](GITHUBNO.png)
+## Que es un repositorio remoto?
+Son remotos porque estan hospedados en un servidor
+## Clonado de un repositorio remoto 
+Para el clonado de un repositorio necesitamos saber la direccion HTTPS o SSH 
+![Imagen de CLonacin de Repositorio](~/Desktop/scesi/scesi/CLONADO.jpg)
+
 
 
 
