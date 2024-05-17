@@ -76,4 +76,14 @@ Para mantener limpio el espacio de trabajo
 ## Conflictos de git
 # Que pasa su queremos fusionar dos ramas, la de destino ha realizado cambios en las mismas lineas de un fichero que los que queremos fusionar?
 ![Conflicto de Fusión en Git](CONFLICTOS.png)
+Al resolver un conflicto debemos decidir en:
+> Nos quedamos con los cambios de la rama main
+> Nos quedamos con los cambios que vienen de la rama changes
+> Modificamos los cambios para hacer una fusion personalizada
+## Cuando ocurra un conficto <hacemos click en la opcion de RESOLVER EN EL EDITOR DE CONVINACION>
+>HAY UN CONFLICTO
+![Conflicto de Fusión en Git](ERRORES1.png)
+>HACEMOS CLICK EN LA OPCION "RESOLVER EN EL EDITOR DE CONVINACION"
+![Conflicto de Fusión en Git](ERRORES2.png)
+
 
