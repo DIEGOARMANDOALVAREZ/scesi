@@ -196,8 +196,11 @@ Abre una PR para discutir los cambios antes de fusionarlos.
 ### Escribir un buen nombre de rama
 #### Usa el nombre de la acción que se realiza en la rama
 >bug: Cambios de código para arreglar un bug conocido.
+
 >feature: Desarrollo de una nueva característica.
+
 >experiment: Experimentos que nunca serán fusionados.
+
 >hotfix: Cambio rápido de un error crítico.
 #### Usar los IDs de JIRA o el sistema de tickets que 
 Una buena idea es adjuntar al principio del nombre de la rama la ID del ticket o de la issue que esté asociada.
