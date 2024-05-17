@@ -189,3 +189,20 @@ Abre una PR para discutir los cambios antes de fusionarlos.
 * A veces necesitas proveer de más contexto a tu commit.
 #### 5. Usa un prefijo para tus commits para hacerlos más semánticos
 ![Prefijos](PREFIJOS.png)
+
+#### 6. Considera usar utilidades para hacer commit
+* Podemos utilizar Husky es una herramienta que te permite usar hooks de Git para ejecutar scripts o comandos automáticamente en ciertas acciones del repositorio, como hacer commit o push
+> Que es mejor ejecutarlas antes de hacer un push
+### Escribir un buen nombre de rama
+#### Usa el nombre de la acción que se realiza en la rama
+>bug: Cambios de código para arreglar un bug conocido.
+>feature: Desarrollo de una nueva característica.
+>experiment: Experimentos que nunca serán fusionados.
+>hotfix: Cambio rápido de un error crítico.
+#### Usar los IDs de JIRA o el sistema de tickets que 
+Una buena idea es adjuntar al principio del nombre de la rama la ID del ticket o de la issue que esté asociada.
+### ¿Debería alterar el historial de mi proyecto?
+* Es mejor idea reiniciar la contraseña o la llave. ¿Por qué?
+> Porque?
+* Esa información ya es vulnerable al haber sido expuesta y
+borrarla del historial no garantiza nada.
