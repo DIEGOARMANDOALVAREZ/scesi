@@ -262,3 +262,21 @@ Esto eliminara los cambios de los que habiamos hecho commit anteriormente<ojo> A
 >Limpian el directorio de trabajo después de un checkout o merge, eliminando ramas no utilizadas.
 ## EJEMPLO DE UN HOOKS
 ![Ejemplo de hooks](EJMHOOKS.png)
+## HOOKS del lado del servidor
+* pre-receive: 
+> Verifica los commits antes de guardarlos, comprobando permisos y evitando conflictos.
+* update:
+>Similar a pre-receive, pero permite control granular sobre qué referencias pueden ser actualizadas.
+*post-receive: 
+>Notifica a los usuarios sobre nuevos cambios, como enviar correos o actualizar una interfaz de usuario.
+## GitHub Actions
+* Es una plataforma de automatización integrada en GitHub que permite definir y ejecutar flujos de trabajo para construir, probar y desplegar tu código directamente desde tu repositorio
+### Características Principales
+* AUTOMATIZACION 
+* CI/CD
+* INTEGRACION CON GitHub
+## Que es una Alias ?
+* Los alias permite definir una serie de comandos que pueden ser usados en lugar de los nombres completos 
+> git co........git commit
+> git st........git status
+
