@@ -80,7 +80,7 @@ Al resolver un conflicto debemos decidir en:
 > Nos quedamos con los cambios de la rama main
 > Nos quedamos con los cambios que vienen de la rama changes
 > Modificamos los cambios para hacer una fusion personalizada
-## Cuando ocurra un conficto <hacemos click en la opcion de RESOLVER EN EL EDITOR DE CONVINACION>
+## Cuando ocurra un conficto <HacemosClickEnLaOpcionDeResoverEnElEditorDeConvinacion>
 # CLASE 3
 
 
