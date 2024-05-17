@@ -57,5 +57,21 @@ Permite realizar un desarrollo paralelo.
 > para cambiar de rama
 * git checkout 
 > otra foma de cambiar la rama
-* 
+* git checkout -b <nombredelarama>
+> creamos la rama y nos cambiamos de rama
+## Fusionar ramas
+Las bifurcasiones de codigo que hemos creado en forma de ramas tendran dos destinos: acabar en el olvido para no terminar en ningun lado o ser fusionadas en otra ram
+* git merge <nombredelarama>
+> comando para fusionar ramas 
+## Eliminar ramas porque?
+Para mantener limpio el espacio de trabajo 
+*git branch -d <nombredelarama>
+> Comando para eliminar una rama
+* git branch
 >
+* git branch -a
+>
+* git log --online
+> Solo muestra el titulo de los commits
+## Conflictos de git
+# Que pasa su queremos fusionar dos ramas, la de destino ha realizado cambios en las mismas lineas de un fichero que los que queremos fusionar?
