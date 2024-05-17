@@ -46,7 +46,7 @@ Los repositorios pueden ser:
 Es un puntero que referencia el punto actual del historial de cambios del repositorio en el que estas trabajando.
 # CLASE 2 
 ### Que es una RAMA?
-![Imgagen del concepto de una rama](RAMA.png)
+![Imagen del concepto de una rama](RAMA.png)
 
 En Git, una rama (o "branch") es una versión paralela del repositorio que permite trabajar de manera independiente en diferentes partes de un proyecto sin afectar la línea principal de desarrollo.
 ## Para que sirven las ramas?
@@ -106,6 +106,8 @@ Es comun que ocurra cuando no tenemos cambios que han ocurrido en el repositorio
 * Para forzar el push y saltar este error. Este es en caso de que NO SABEMOS el tipo de error que tenemos "por lo cual no es conveniente"
 # CLASE 4
 ## Que difenrencia hay entre git push y git pull?
+![imagen de gitpull](GITPULL.png)
+
 * git push : Nos sirve para empujar cualquier cambio
 * git pull : Se emplea para extraer y descargar contenido desde un repositorio remoto
 ### Que hace el git push -u?
