@@ -129,8 +129,27 @@ Primero tenemo que subir nuestra rama con git push y a configuraciones hay 2 man
 * la rama que subimos recientemente y te aparece la opcion en GitHub>Code
 * Irnos al apartado Pull Request
 ![imagen de pullRequest](PULL.png)
+## Como hacer un buen PR
+* ENFOCA TU CODIGO EN UNA SOLA CONSOLA
+* EXPLICA TU PULL REQUEST 
+# CLASE 5
+## Git FLow 
+![Diagrama de flujo](FLOW.png)
+Organiza las ramas en dos tipos: permanentes (para versiones estables y desarrollo) y temporales (para características nuevas y correcciones).
+### Ramas Permanentes:
 
+#### master:
+ Representa la versión estable y lista para producción del software.
+#### develop:
+Es la rama principal de desarrollo donde se integran todas las características nuevas.
+### Ramas Temporales:
 
+#### feature:
+ Ramas creadas para implementar nuevas características. Se ramifican desde develop y se fusionan nuevamente en develop una vez completadas.
+#### release:
+ Ramas creadas para la preparación de una nueva versión para producción. Se ramifican desde develop y se fusionan tanto en develop como en master una vez que la versión está lista.
+#### hotfix:
+ Ramas creadas para corregir errores críticos en producción. Se ramifican desde master, se solucionan los problemas y luego se fusionan tanto en master como en develop.
 
 
 
