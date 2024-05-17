@@ -1,6 +1,7 @@
 # **CURSO GIT**
 # CLASE 1
 ## 1.- INTRODUCCION A GIT
+![Git Presents](GITPRESENTS.png)
 ### ¿Que es un control de versiones?
 Es un sistema que registra cada cambio que se realiza en el codigo fuente de un proyecto.
 ### ¿Porque es importante?
@@ -276,7 +277,33 @@ Esto eliminara los cambios de los que habiamos hecho commit anteriormente<ojo> A
 * CI/CD
 * INTEGRACION CON GitHub
 ## Que es una Alias ?
-* Los alias permite definir una serie de comandos que pueden ser usados en lugar de los nombres completos 
-> git co........git commit
-> git st........git status
+> Los alias permite definir una serie de comandos que pueden ser usados en lugar de los nombres completos 
+ejem
+* git co........git commit
+
+* git st........git status
+## Como creo mi primer alias
+*git config --global alias.[NombreDelAlias] "comando a ejecutar"
+> Con este comando podemos crear nuestro primer alias 
+### GUARDAR TUS CAMBIOS TEMPORALMENTE
+* git stash
+> Guarda temporalmente los cambios no confirmados (modificaciones y añadidos) en un área de almacenamiento para que puedas trabajar en una copia limpia del repositorio.
+* git stash-u
+> Igual que git stash, pero también guarda los archivos no rastreados (nuevos archivos que no han sido añadidos al repositorio).
+* git stash pop
+> Recupera los cambios guardados más recientemente del área de almacenamiento y los aplica al área de trabajo, eliminándolos del stash.
+### APLICAR CAMBIOS DE COMMITS EN ESPECIFICO
+* git cherry-pick<SHA>
+> Aplica los cambios del commit <SHA> a la rama actual.
+### DETECTAR QUE COMMIT ES EL QUE HA INTRODUCIDO UN BUG 
+* git bisect
+> Herramienta para encontrar el commit que introdujo un error.
+* git bisect start
+> Inicia el proceso de bisecting.
+* git bisect bad
+> Marca el commit actual como defectuoso (malo).
+* git bisect good
+> Marca un commit conocido como libre de errores (bueno).
+* git bisect resset
+> Termina el proceso de bisecting y vuelve a la rama 
 
