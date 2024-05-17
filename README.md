@@ -92,7 +92,17 @@ Son remotos porque estan hospedados en un servidor
 ## Clonado de un repositorio remoto 
 Para el clonado de un repositorio necesitamos saber la direccion HTTPS o SSH 
 ![Imagen de CLonacin de Repositorio](CLONADO.png)
-
+* Ahora clonamos clonamos al repositorio remoto con :
+> git clone PegamosLaDireccionDeLaImgen
+ ## Como enlazar un repositorio local con un repositorio remoto?
+ Para conectar al repositorio local con el repositorioo remoto debemos usar el comando 
+ > git remote add 
+ ## Error del push
+Es comun que ocurra cuando no tenemos cambios que han ocurrido en el repositorio remoto. Y para esto usariamos el parametro
+> -f 
+* Para forzar el push y saltar este error 
+Este es en caso de que NO SABEMOS el tipo de error que tenemos 
+ 
 
 
 
