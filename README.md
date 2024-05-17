@@ -91,7 +91,7 @@ Al resolver un conflicto debemos decidir en:
 Son remotos porque estan hospedados en un servidor
 ## Clonado de un repositorio remoto 
 Para el clonado de un repositorio necesitamos saber la direccion HTTPS o SSH 
-![Imagen de CLonacin de Repositorio](~/Desktop/scesi/scesi/CLONADO.png)
+![Imagen de CLonacin de Repositorio](CLONADO.png)
 
 
 
