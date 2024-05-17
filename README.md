@@ -100,9 +100,35 @@ Para el clonado de un repositorio necesitamos saber la direccion HTTPS o SSH
  ## Error del push
 Es comun que ocurra cuando no tenemos cambios que han ocurrido en el repositorio remoto. Y para esto usariamos el parametro
 > -f 
-* Para forzar el push y saltar este error 
-Este es en caso de que NO SABEMOS el tipo de error que tenemos 
- 
+* Para forzar el push y saltar este error. Este es en caso de que NO SABEMOS el tipo de error que tenemos "por lo cual no es conveniente"
+# CLASE 4
+## Que difenrencia hay entre git push y git pull?
+* git push : Nos sirve para empujar cualquier cambio
+* git pull : Se emplea para extraer y descargar contenido desde un repositorio remoto
+### Que hace el git push -u?
+> git push -u
+* Establece una relación de seguimiento entre la rama local y la rama remota
+### Que hace el git push -f?
+> git push -f
+* Fuerza el push, sobrescribiendo la historia de la rama remota con la historia de la rama local.
+### Borrar las ramas remotas
+> git push origin --delete <nombre_de_la_rama>
+* Para borrar ramas remotas
+> git push origin rama_origen:rama_destino
+* Esto envía la rama_origen al repositorio remoto como rama_destino.
+> git pull origin login
+* Descarga los cambios desde la rama login del repositorio remoto (origin) y los fusiona automáticamente con la rama local en la que te encuentras actualmente.
+> git pull--set-upstream origin <rama>
+* Establece una relación de seguimiento entre la rama local actual y una rama remota específica
+> git pull origin<rama1><rama2><ramaN>
+* Actualiza la rama local actual con los cambios de una o varias ramas remotas específicas
+## Que es una Pull Request?
+* Es una peticion de cambios que se envia al repositorio original, tambien conocida como PR
+## Como se hace una PR 
+Primero tenemo que subir nuestra rama con git push y a configuraciones hay 2 maneras:
+* la rama que subimos recientemente y te aparece la opcion en GitHub>Code
+* Irnos al apartado Pull Request
+
 
 
 
