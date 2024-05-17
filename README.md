@@ -87,3 +87,4 @@ Al resolver un conflicto debemos decidir en:
 ![Conflicto de Fusión en Git](ERRORES2.png)
 
 
+
