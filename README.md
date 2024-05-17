@@ -260,3 +260,5 @@ Esto eliminara los cambios de los que habiamos hecho commit anteriormente<ojo> A
 >Ejecuta tests antes de hacer push para evitar subir cambios que no pasen las pruebas.
 * post-checkout y post-merge: 
 >Limpian el directorio de trabajo después de un checkout o merge, eliminando ramas no utilizadas.
+## EJEMPLO DE UN HOOKS
+![Ejemplo de hooks](EJMHOOKS.png)
